@@ -1,8 +1,13 @@
-<section >
+<section                 
+    data-aos="fade-in" 
+    data-aos-duration="500" 
+>
     <div class="container-servicos">
-        <h1>Serviços</h1>
+        <h1>Nossos serviços</h1>
         <div class="container-cards">
             <app-card 
+                data-aos="zoom-in" 
+                data-aos-duration="1000" 
                 title=Computadores
                 titleColor="#BDFF00"
                 backgroundColor="#393338"
@@ -10,6 +15,8 @@
                 [descriptions]="['Reparo', 'Formatação', 'Upgrade']"
             />
             <app-card
+                data-aos="zoom-in" 
+                data-aos-duration="1000" 
                 title=Impressoras
                 titleColor="#00DBF9"
                 backgroundColor="#393338"
@@ -17,6 +24,8 @@
                 [descriptions]="['Desentupimento', 'Conserto', 'Limpeza']"
             />
             <app-card
+                data-aos="zoom-in" 
+                data-aos-duration="1000" 
                 title=Monitores
                 titleColor="#FFDC26"
                 backgroundColor="#393338"
@@ -26,6 +35,7 @@
         </div>
     </div>
 </section>
+<app-divisoria/>
 
 <!-- backgroundColor impressora: #452732 -->
 <!-- backgroundColor computador: #2E2C94 -->

@@ -12,6 +12,8 @@ import { FaqComponent } from './shared/components/faq/faq.component';
 import { NgbCarousel, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AboutComponent } from './shared/components/about/about.component';
 import { CardComponent } from './shared/components/card/card.component';
+import { RodapeComponent } from './shared/components/rodape/rodape.component';
+import { DivisoriaComponent } from './shared/components/divisoria/divisoria.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { CardComponent } from './shared/components/card/card.component';
     ServicosComponent,
     FaqComponent,
     AboutComponent,
-    CardComponent
+    CardComponent,
+    RodapeComponent,
+    DivisoriaComponent
   ],
   imports: [
     BrowserModule,

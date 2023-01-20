@@ -1,4 +1,5 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Inject, Input, OnInit } from '@angular/core';
+import AOS from "aos";
 
 @Component({
   selector: 'app-card',
@@ -12,10 +13,12 @@ export class CardComponent implements OnInit {
   @Input() public titleColor: string;
   @Input() public backgroundColor: string;
 
+
   constructor() {
+
   }
 
   ngOnInit(): void {
-    
   }
 }
+// https://michalsnik.github.io/aos/

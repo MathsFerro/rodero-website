@@ -27,7 +27,11 @@
         justify-content: space-between;
 
         .image-rodero-logo {
+  
             margin-left: 15px;
+            svg {
+                width: 300px;
+            }
         }
 
         nav {
@@ -40,18 +44,19 @@
                 li {
                     color: #FFFFFF;
                     font-size: 1rem;
-                    border-radius: 15px;
+                    // border-radius: 15px;
 
                     cursor: pointer;
                     
-                    transition: background-color 0.2s;
+                    transition: filter 0.3s;
 
                     &:hover {
-                        background-color: rgba($color: #FF3838, $alpha: 0.4);
-                            
-                        -webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,1);
-                        -moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,1);
-                        box-shadow: 0px 1px 2px 0px rgba(0,0,0,1);
+                  
+                        filter: brightness(50%);
+                       
+                        // -webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,1);
+                        // -moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,1);
+                        // box-shadow: 0px 1px 2px 0px rgba(0,0,0,1);
                     }
                 }
             }
