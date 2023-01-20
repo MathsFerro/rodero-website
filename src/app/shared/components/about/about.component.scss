@@ -4,20 +4,23 @@ section {
     .container-about {
         display: flex;
         flex-direction: row;
+        gap: 60px;
 
-        div {
+        .container-carousel {
             flex: 1;
         }
 
         .container-description {
+            flex: 1;
+
             h1 {
                 margin-bottom: 20px;
                 font-weight: 500;
                 color: #000000;
             }
-        
+
             p {
-                margin-right: 30px;
+                text-align: justify;
             }
         }
     }
