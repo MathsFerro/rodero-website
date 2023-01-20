@@ -1,0 +1,24 @@
+section {
+    margin-top: 160px;
+
+    .container-about {
+        display: flex;
+        flex-direction: row;
+
+        div {
+            flex: 1;
+        }
+
+        .container-description {
+            h1 {
+                margin-bottom: 20px;
+                font-weight: 500;
+                color: #000000;
+            }
+        
+            p {
+                margin-right: 30px;
+            }
+        }
+    }
+}

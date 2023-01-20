@@ -1,0 +1,34 @@
+section {
+    margin-top: 160px;
+
+    .container-servicos {
+        width: 100%;
+
+        // background-color: rgba($color: #161636, $alpha: 1);
+
+    }
+
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+
+    h1 {
+        margin-bottom: 60px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    .container-servicos {
+        display: flex;
+        align-items: center;
+
+        flex-direction: column;
+    }
+
+    .container-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+}

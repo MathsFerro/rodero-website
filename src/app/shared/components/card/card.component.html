@@ -1,0 +1,18 @@
+<section [style.background-color]="backgroundColor">
+    <div class="container-image">
+        <img src={{image}}>
+    </div>
+
+    <div class="container-title">
+        <h1 [style.color]="titleColor">{{title}}</h1>
+    </div>
+    
+    <div class="container-description">
+        <p *ngFor="let description of descriptions">{{description}}</p>
+    </div>
+</section>
+
+<!-- 
+<p>Reparo</p>
+<p>Formatação</p>
+<p>Upgrade</p> -->
