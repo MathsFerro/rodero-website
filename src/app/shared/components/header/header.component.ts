@@ -1,3 +1,4 @@
+import { transition, trigger, state, style, AUTO_STYLE, animate } from '@angular/animations';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-
 }

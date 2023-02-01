@@ -33,3 +33,23 @@ section {
         }
     }
 }
+
+@media screen and (max-width: 1200px) {
+    section {
+        width: 100%;
+        .container-about {
+            flex-direction: column;
+
+            .container-description {
+                h1 {
+                    text-align: center;
+                }
+
+                p {
+                    text-align: center;
+                }
+            }
+        }
+
+    }
+}

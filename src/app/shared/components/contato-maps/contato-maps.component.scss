@@ -1,0 +1,42 @@
+section {
+    .container-contato-maps {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .container-contato {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .container-maps {
+            width: 100%;
+        }
+
+        app-contato {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    section {
+        .container-contato-maps {
+            width: 100%;
+            flex-direction: column;
+
+            gap: 30px;
+
+            .container-contato {
+                width: 100%;
+            }
+
+            .container-maps {
+                width: 100%;
+            }
+        }
+    }
+}
+

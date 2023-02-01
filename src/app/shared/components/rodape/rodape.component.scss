@@ -2,7 +2,6 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
-
     height: 100px;
 
     .container-info {
@@ -54,5 +53,22 @@ footer {
 
     p {
         margin: 0;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    footer {
+        text-align: center;
+        height: 250px;
+
+        .container-info {
+            display: flex;
+            flex-direction: column;
+            
+            gap: 10px;
+            .box {
+      
+            }
+        }
     }
 }

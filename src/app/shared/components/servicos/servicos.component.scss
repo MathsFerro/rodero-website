@@ -8,8 +8,6 @@ section {
 
     }
 
-
-
     display: flex;
     justify-content: center;
 
@@ -30,5 +28,14 @@ section {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1150px) { 
+    section {
+        .container-cards {
+            grid-template-columns: 1fr;
+        }
     }
 }
