@@ -19,6 +19,7 @@ import { ContatoComponent } from './shared/components/contato/contato.component'
 import { MapsComponent } from './shared/components/maps/maps.component';
 import { ContatoMapsComponent } from './shared/components/contato-maps/contato-maps.component';
 import { AccordionItemComponent } from './shared/components/accordion-item/accordion-item.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { AccordionItemComponent } from './shared/components/accordion-item/accor
     MdbCarouselModule,
     NgbCarousel,
     NgbModule,
-    MdbAccordionModule
+    MdbAccordionModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
