@@ -1,0 +1,50 @@
+.container-em-construcao {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        color: white;
+    }
+
+    span {
+        margin-bottom: 10px;
+        color: grey;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        font-size: 18px;
+
+        background-color: rgb(8 111 19);
+        padding: 20px;
+        border-radius: 10px;
+
+        transition: filter .2s;
+
+        &:hover {
+            filter: opacity(85%);
+        }
+    }
+
+    .box-whats {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+        p {
+            margin: 0;
+            margin-left: 10px;
+        }
+
+        img {
+            width: 40px;
+        }
+    }
+}

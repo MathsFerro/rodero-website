@@ -20,6 +20,7 @@ import { MapsComponent } from './shared/components/maps/maps.component';
 import { ContatoMapsComponent } from './shared/components/contato-maps/contato-maps.component';
 import { AccordionItemComponent } from './shared/components/accordion-item/accordion-item.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { EmConstrucaoComponent } from './shared/components/em-construcao/em-construcao.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     ContatoComponent,
     MapsComponent,
     ContatoMapsComponent,
-    AccordionItemComponent
+    AccordionItemComponent,
+    EmConstrucaoComponent
   ],
   imports: [
     BrowserModule,
